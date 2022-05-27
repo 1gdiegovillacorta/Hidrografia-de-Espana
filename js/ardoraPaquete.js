@@ -19,12 +19,13 @@ $("#botonPechar").keydown(function(e){if (e.which!=9){PechaVentana();}});$("#sug
          indice=window.opener.indice;
       }
    }
-   maxIndice=3;
+   maxIndice=4;
 	taboaContidos=new Array();
 taboaContidos[0]=new act("Crucigrama General","Crucigrama General","","<object width='100%' height='420' type='text/html' data='CGR/CGR.htm'></object>",false,"",true,true,true);
 taboaContidos[1]=new act("Vertientes de España","Vertientes de España","","<object width='100%' height='420' type='text/html' data='VHF/VHF.htm'></object>",false,"",true,true,true);
 taboaContidos[2]=new act("Mapa Hidrográfico de España","Mapa Hidrográfico de España","","<object width='100%' height='420' type='text/html' data='MHE/MHE.htm'></object>",false,"",true,true,true);
 taboaContidos[3]=new act("Crucigra. Vertiente Cantábrica","Crucigra. Vertiente Cantábrica","","<object width='100%' height='420' type='text/html' data='CRUCIGRAMA/CRUCIGRAMA.htm'></object>",false,"",true,true,true);
+taboaContidos[4]=new act("Puzzle Mapa Hidrográfico","Puzzle Mapa Hidrográfico","","<object width='100%' height='420' type='text/html' data='PZL/PZL.htm'></object>",false,"",true,true,true);
 document.getElementById("botonAdiante").href="javascript:avanza()";
 document.getElementById("botonAtras").href="javascript:retrocede()";
 document.getElementById("botonAxuda").target="_blank";
